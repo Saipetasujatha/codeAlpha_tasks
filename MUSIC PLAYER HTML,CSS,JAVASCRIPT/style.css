@@ -1,0 +1,43 @@
+.music-player {
+  width: 600px;
+  height:200px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(215, 9, 9, 0.1);
+}
+
+.song-info {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #14d57e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.progress-bar {
+  margin-top: 20px;
+}
+
+#progress {
+  width: 100%;
+}
+
+#current-time, #total-time {
+  font-size: 14px;
+  color: #666;
+}
