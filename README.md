@@ -1,2 +1,2 @@
 # codeAlpha_tasks
-The project name is IMAGE GALLERY ,done usingHTML,CSS  and JAVASCRIPT.
+The project are CALCULATOR,MUSIC PLAYER, IMAGE GALLERY, ,done usingHTML,CSS  and JAVASCRIPT.
