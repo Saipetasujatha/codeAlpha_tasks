@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="gallery">
+    <div class="image-container">
+      <img src="/cheetha.png" alt="Image 1" onclick="openLightbox('cheetha.png')">
+    </div>
+    <div class="image-container">
+      <img src="/bear.png" alt="Image 2" onclick="openLightbox('bear.png')">
+    </div>
+    <div class="image-container">
+      <img src="/chicks.png" alt="Image 2" onclick="openLightbox('chicks.png')">
+    </div>
+    <div class="image-container">
+      <img src="/cub.png" alt="Image 2" onclick="openLightbox('cub.png')">
+    </div>
+    <div class="image-container">
+      <img src="/elephant.png" alt="Image 2" onclick="openLightbox('elephant.png')">
+    </div>
+    <div class="image-container">
+      <img src="/tiger.png" alt="Image 2" onclick="openLightbox('tiger.png')">
+    </div>
+
+    <div class="image-container">
+      <img src="/pink duck.png" alt="Image 2" onclick="openLightbox('pink duck.png')">
+    </div>
+
+    <div class="image-container">
+      <img src="/squirrel.png" alt="Image 2" onclick="openLightbox('squirrel.png')">
+    </div>
+
+    <div class="image-container">
+      <img src="/bear.png" alt="Image 2" onclick="openLightbox('bear.png')">
+    </div>
+
+    <div class="image-container">
+      <img src="/elephant.png" alt="Image 2" onclick="openLightbox('elephant.png')">
+    </div>
+
+    <div class="image-container">
+      <img src="/cheetha.png" alt="Image 2" onclick="openLightbox('cheetha.png')">
+    </div>
+    <div class="image-container">
+      <img src="/chicks.png" alt="Image 2" onclick="openLightbox('chicks.png')">
+    </div>
+
+
+    <div class="image-container">
+      <img src="/tiger.png" alt="Image 2" onclick="openLightbox('tiger.png')">
+
+
+
+      <div class="lightbox" id="lightbox">
+        <img class="lightbox-image" id="lightbox-image">
+        <span class="close-lightbox" id="close-lightbox" onclick="closeLightbox()">&times;</span>
+      </div>
+
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+
+      <script src="script.js"></script>
+</body>
+
+</html>
